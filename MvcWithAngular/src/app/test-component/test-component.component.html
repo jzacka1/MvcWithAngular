@@ -1,0 +1,32 @@
+<h1>Test Component</h1>
+
+<p>test-component works!</p>
+
+<div> {{userService.showMessage()}} </div>
+
+<div>{{testService.test}}</div>
+<!--<div>{{showTestResults()}}</div>-->
+
+<!--<div>{{githubService.getUserByName('jzacka1').name}}</div>
+<div>{{githubService.getUserByName('jzacka1').id}}</div>
+<div>{{githubService.getUserByName('jzacka1').type}}</div>
+<div>{{githubService.getUserByName('jzacka1').url}}</div>
+<div>{{githubService.getUserByName('jzacka1').created_at}}</div>
+<div>{{githubService.getUserByName('jzacka1').updated_at}}</div>-->
+<!--DON'T CALL THE FUNCTIONS DIRECTLY INTO PAGE, OR IT'LL BE CALLED CONTINUOUSLY-->
+<button type="button" (click)="this.showUserByName('nvie')">Get Nvie Git!</button>
+<!--<div>{{_user.name}}</div>
+<div>{{_user.id}}</div>
+<div>{{_user.type}}</div>
+<div>{{_user.url}}</div>
+<div>{{_user.created_at}}</div>
+<div>{{_user.updated_at}}</div>-->
+
+<div>----Split----</div>
+
+<div>{{githubService.user.name}}</div>
+<div>{{githubService.user.id}}</div>
+<div>{{githubService.user.type}}</div>
+<div>{{githubService.user.url}}</div>
+<div>{{githubService.user.created_at}}</div>
+<div>{{githubService.user.updated_at}}</div>

@@ -1,0 +1,25 @@
+<p>health-plans-component works!</p>
+
+<div *ngFor="let plan of healthPlansService.plans; let i = index">
+	<p>{{plan.planName}}</p>
+</div>
+
+<p>-------------------------Insert new record-------------------------</p>
+
+<div class="container">
+	<div class="form-group">
+		<label>Plan Type</label>
+		<input type="text" name="plan" [(ngModel)]="plan.planType" class="form-control" placeholder="Plan Type" required />
+	</div>
+	<div class="form-group">
+		<label>Plan Name</label>
+		<input type="text" name="plan" [(ngModel)]="plan.planName" class="form-control" placeholder="Plan Name" required />
+	</div>
+	<div class="form-group">
+		<button class="btn btn-success btn-lg btn-block" (click)="healthPlansService.addHealthPlan(plan)">Add New Plan</button>
+	</div>
+</div>
+
+<p>-------------------------Modify record-------------------------</p>
+
+<app-modify-health-plan></app-modify-health-plan>
