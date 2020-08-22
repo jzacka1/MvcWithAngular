@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcWithAngular", "MvcWithAn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestfulApiClient", "RestfulApiClient\RestfulApiClient.csproj", "{3C22B3D7-8639-4E33-85D1-BFFBF057EB22}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{087198F2-2DDE-4494-A087-4850D9DE6A1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3C22B3D7-8639-4E33-85D1-BFFBF057EB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C22B3D7-8639-4E33-85D1-BFFBF057EB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C22B3D7-8639-4E33-85D1-BFFBF057EB22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{087198F2-2DDE-4494-A087-4850D9DE6A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087198F2-2DDE-4494-A087-4850D9DE6A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087198F2-2DDE-4494-A087-4850D9DE6A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087198F2-2DDE-4494-A087-4850D9DE6A1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
